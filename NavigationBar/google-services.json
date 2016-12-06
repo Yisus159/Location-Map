@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "760546837863",
+    "firebase_url": "https://business-location-de710.firebaseio.com",
+    "project_id": "business-location-de710",
+    "storage_bucket": "business-location-de710.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:760546837863:android:248332a7560a900b",
+        "android_client_info": {
+          "package_name": "example.jesus.navigationbar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "760546837863-ppb82sf18ijfum69rbaigpe07bghobii.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCwf8Y6W7OayJr-UvbVm283e59Mjbwc5m8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

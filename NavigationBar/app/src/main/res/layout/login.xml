@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:text="Unéte"
+        android:layout_height="wrap_content"
+        android:textSize="36sp"
+        android:textAlignment="center"
+        android:id="@+id/textview0"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/usertext"
+        android:hint="Usuario"
+        android:layout_marginTop="24dp"
+        android:layout_below="@+id/textview0"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/pwuser"
+        android:hint="contraseña"
+        android:layout_below="@+id/usertext"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="15dp" />
+
+    <Button
+        android:text="iniciar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/boton0"
+        android:onClick="modificar"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="58dp"
+        android:layout_marginStart="58dp"
+        android:layout_below="@+id/pwuser"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="registrate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="37dp"
+        android:layout_marginStart="37dp"
+        android:id="@+id/boton1"
+        android:layout_alignBaseline="@+id/boton0"
+        android:layout_alignBottom="@+id/boton0"
+        android:layout_toRightOf="@+id/boton0"
+        android:layout_toEndOf="@+id/boton0" />
+
+</RelativeLayout>
